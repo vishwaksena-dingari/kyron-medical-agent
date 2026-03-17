@@ -40,3 +40,5 @@ yarn-error.log*
 # Generated / scratch files
 project_snapshot.md
 project_to_md.py
+INTERVIEW_SCRIPT.md
+package\ copy.json
