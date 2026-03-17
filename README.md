@@ -112,11 +112,16 @@ VAPI_WEBHOOK_SECRET=
 RESEND_API_KEY=
 RESEND_FROM_EMAIL=
 
-# Vercel KV — auto-filled by: npx vercel env pull
-KV_URL=
-KV_REST_API_URL=
-KV_REST_API_TOKEN=
-KV_REST_API_READ_ONLY_TOKEN=
+# Upstash Redis (used by default — upstash.com → your database → REST tab)
+UPSTASH_REDIS_REST_URL=
+UPSTASH_REDIS_REST_TOKEN=
+
+# Alternative: Vercel KV (auto-filled by: npx vercel link && npx vercel env pull)
+# Swap lib/kv.ts to use @vercel/kv if you prefer this route
+# KV_URL=
+# KV_REST_API_URL=
+# KV_REST_API_TOKEN=
+# KV_REST_API_READ_ONLY_TOKEN=
 
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
